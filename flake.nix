@@ -84,6 +84,9 @@
                 "main $1"
             '';
           };
+          hello = pkgs.hello.overrideAttrs (finalAttrs: previousAttrs: {
+            doCheck = false;
+          });
         };
       }
     );
