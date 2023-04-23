@@ -1,0 +1,5 @@
+{
+  "endpoint" : "192.168.64.1:4317",
+  "insecure" : true,
+  "fail" : true
+}
